@@ -1,0 +1,25 @@
+import Introduction from './sections/Introduction'
+import Installation from './sections/Installation'
+import BasicCommands from './sections/BasicCommands'
+import Dockerfiles from './sections/Dockerfiles'
+import ImageAndContainers from './sections/ImageAndContainers'
+import Dockercompose from './sections/Dockercompose'
+import Header from './sections/Header'
+
+const DockerCourse = () => {
+  return (
+    <div className='min-h-screen bg-gradient-to-br from-blue-50 to-white'>
+        <div className="max-w-6xl mx-auto px-6">
+            <Header/>
+            <Introduction/>
+            <Installation/>
+            <ImageAndContainers/>
+            <BasicCommands/>
+            <Dockerfiles/>
+            <Dockercompose/>
+        </div>
+    </div>
+  )
+}
+
+export default DockerCourse
