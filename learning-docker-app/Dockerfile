@@ -2,7 +2,7 @@ FROM node:24-alpine AS build
 
 WORKDIR /learning-docker-app
 
-COPY package.json ./
+COPY package*.json ./
 
 RUN npm install
 
