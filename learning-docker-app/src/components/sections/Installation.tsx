@@ -125,7 +125,7 @@ const Installation = () => {
             <div className="p-6 space-y-4">
               <div className="space-y-3">
                 <div className="flex items-start space-x-3">
-                  <span className="bg-gray-700 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold">1</span>
+                  <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold">1</span>
                   <div>
                     <p className="text-gray-700">
                       Download Docker Desktop for Mac from the{" "}
@@ -142,17 +142,17 @@ const Installation = () => {
                 </div>
                 
                 <div className="flex items-start space-x-3">
-                  <span className="bg-gray-700 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold">2</span>
+                  <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold">2</span>
                   <p className="text-gray-700">Choose the version for your Mac (Intel or Apple Silicon)</p>
                 </div>
                 
                 <div className="flex items-start space-x-3">
-                  <span className="bg-gray-700 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold">3</span>
+                  <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold">3</span>
                   <p className="text-gray-700">Open the .dmg file and drag Docker to your Applications folder</p>
                 </div>
                 
                 <div className="flex items-start space-x-3">
-                  <span className="bg-gray-700 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold">4</span>
+                  <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold">4</span>
                   <p className="text-gray-700">Launch Docker from Applications and grant necessary permissions</p>
                 </div>
               </div>
