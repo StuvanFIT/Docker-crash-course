@@ -1,6 +1,6 @@
 import Introduction from './sections/Introduction'
 import Installation from './sections/Installation'
-import BasicCommands from './sections/BasicCommands'
+import DockerRegistries from './sections/DockerRegistries'
 import Dockerfiles from './sections/Dockerfiles'
 import ImageAndContainers from './sections/ImageAndContainers'
 import Dockercompose from './sections/Dockercompose'
@@ -14,7 +14,7 @@ const DockerCourse = () => {
             <Introduction/>
             <Installation/>
             <ImageAndContainers/>
-            <BasicCommands/>
+            <DockerRegistries/>
             <Dockerfiles/>
             <Dockercompose/>
         </div>
