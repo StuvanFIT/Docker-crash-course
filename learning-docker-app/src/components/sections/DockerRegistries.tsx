@@ -208,12 +208,6 @@ docker stop {CONTAINER A ID} {CONTAINER B NAME} {CONTAINER C ID}...
             </code>
         </div> 
         </p>
-
-           
-
-
-
-
       </div>
     </section>
   )
