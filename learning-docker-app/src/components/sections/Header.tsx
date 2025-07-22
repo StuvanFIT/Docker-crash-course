@@ -13,9 +13,9 @@ const Header = () => {
               <FaDocker className="w-16 h-16 text-white" />
             </div>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 text-center md:text-left">
-              <span className="text-blue-600">Docker</span>{' '}
+              <span className="text-blue-600">Docker Made</span>{' '}
               <span className="bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-                Tutorial
+                Simple
               </span>
             </h1>
           </div>
