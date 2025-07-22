@@ -28,6 +28,25 @@ const DockerRegistries = () => {
         </p>
 
         <h3 className="text-xl mb-4 pb-2 md:text-2xl font-semibold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
+          Public Docker Registries
+        </h3>
+
+        <p>
+          Public Registries are for public usage and open-source projects. Docker Hub is a good example of a public registry. You can browse a list of public Docker images, and also store and view private Docker images.
+        </p>
+
+        <h3 className="text-xl mb-4 pb-2 md:text-2xl font-semibold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
+          Private Docker Registries
+        </h3>
+
+        <p>
+          Private registries are where access to Docker images are restricted to authenticated users. All big cloud providers offer private registries such as
+          Amazon ECR, Google Container Registry etc.
+        </p>
+
+
+
+        <h3 className="text-xl mb-4 pb-2 md:text-2xl font-semibold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
           Docker Image Versions
         </h3>
 
@@ -99,6 +118,9 @@ docker run nginx:1.23
 {`#-d or --detach = runs the container in the background and prints the container ID
 docker run -d nginx:1.23
 
+#If you wanted to rename the container:
+docker run --name my-web-app -d nginx:1.23
+
 #If you stil wanted to view the logs from service running inside the container, use this:
 docker logs {CONTAINER ID}
 `}
@@ -146,8 +168,50 @@ docker run -d -p 80:80 nginx:1.23
             </code>
           </div>
 
+        <h2 className="text-3xl mb-4 pb-2 md:text-4xl font-semibold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
+          Start and Stop Containers
+        </h2>
+
+        <p>
+          Everytime we execute the "docker run" command, we create a new container and we do not re-use the previous container.
+          If you have executed docker run command several times, this means that you have actually created many containers on your
+          local machine!
+        </p>
+        <p>
+          Wait...When I run "docker ps", I only see the running containers and not the ones I've stopped? Instead, if you add a specific -a
+          flag, you can view the all containers (stopped and running):
+        </p>
+        <div className="bg-gray-900 rounded-lg p-4 overflow-x-auto">
+            <code className="text-blue-200 text-sm whitespace-pre-wrap">
+{`# -a or -all = list all containers (stopped and running)
+
+docker ps -a
+`}
+            </code>
+        </div>
         
-         
+        <p>
+          If you wanted to revive or restart an existing stopped container, you can do this:
+          <br/><br/>
+        <div className="bg-gray-900 rounded-lg p-4 overflow-x-auto">
+            <code className="text-blue-200 text-sm whitespace-pre-wrap">
+{`docker start {CONTAINER_ID}
+
+#Or you can use container names
+
+docker start {CONTAINER_NAME}
+
+#You can start/stop containers in one line
+
+docker stop {CONTAINER A ID} {CONTAINER B NAME} {CONTAINER C ID}...
+`}
+            </code>
+        </div> 
+        </p>
+
+           
+
+
 
 
       </div>
