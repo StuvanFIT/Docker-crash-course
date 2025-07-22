@@ -25,7 +25,7 @@ const DockerInCycle = () => {
 
                 <div className="flex items-center justify-center mb-12">
                     <ImageWithSkeleton
-                        src="./public/DockerDevelopmentProcess.drawio.svg"
+                        src="/DockerDevelopmentProcess.drawio.svg"
                         alt="Docker in Software Development Process"
                     />
                 </div>
