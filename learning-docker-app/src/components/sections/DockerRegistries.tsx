@@ -95,8 +95,17 @@ You should see the REPOSITORY, TAG, IMAGE ID, CREATED and SIZE.
 
           <div className="bg-gray-900 rounded-lg p-4 overflow-x-auto">
             <code className="text-blue-200 text-sm whitespace-pre-wrap">
-{`# docker run {name}:{tag} = creates a container from a given image and starts it
+{`# docker run {name}:{tag} = creates a container from a given image and starts it.
 docker run nginx:1.23
+
+# if you want to only create the container without starting it, do this:
+docker create some-image
+
+#In this example:
+docker create nginx:1.23
+
+#Then, you need to manually start the container
+docker start myapp
 `}
             </code>
           </div>
