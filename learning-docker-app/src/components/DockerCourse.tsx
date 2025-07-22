@@ -3,7 +3,6 @@ import Installation from './sections/Installation'
 import DockerRegistries from './sections/DockerRegistries'
 import Dockerfiles from './sections/Dockerfiles'
 import ImageAndContainers from './sections/ImageAndContainers'
-import Dockercompose from './sections/Dockercompose'
 import Header from './sections/Header'
 
 const DockerCourse = () => {
@@ -16,7 +15,6 @@ const DockerCourse = () => {
             <ImageAndContainers/>
             <DockerRegistries/>
             <Dockerfiles/>
-            <Dockercompose/>
         </div>
     </div>
   )
