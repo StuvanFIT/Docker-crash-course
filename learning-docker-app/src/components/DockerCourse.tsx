@@ -4,6 +4,8 @@ import DockerRegistries from './sections/DockerRegistries'
 import Dockerfiles from './sections/Dockerfiles'
 import ImageAndContainers from './sections/ImageAndContainers'
 import Header from './sections/Header'
+import DockerInCycle from './sections/DockerInCycle'
+import DockerCompose from './sections/DockerComposes'
 
 const DockerCourse = () => {
   return (
@@ -15,6 +17,8 @@ const DockerCourse = () => {
             <ImageAndContainers/>
             <DockerRegistries/>
             <Dockerfiles/>
+            <DockerCompose/>
+            <DockerInCycle/>
         </div>
     </div>
   )
