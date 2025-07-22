@@ -1,8 +1,7 @@
-import { FaDocker, FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
+import { FaDocker, FaExternalLinkAlt, FaGithub, FaQuoteLeft } from 'react-icons/fa'
 
 const Header = () => {
   return (
-
     <section className="py-24">
       <div className="text-center space-y-12">
         {/* Main Hero Content */}
@@ -31,6 +30,25 @@ const Header = () => {
             </h2>
           </div>
 
+          {/* Developer Quote */}
+          <div className="max-w-3xl mx-auto py-8">
+            <div className="bg-gradient-to-r from-blue-50 to-blue-100 border-l-4 border-blue-600 p-6 rounded-r-xl shadow-md">
+              <div className="flex items-start gap-4">
+                <FaQuoteLeft className="text-blue-600 text-2xl mt-1 flex-shrink-0" />
+                <div className="text-left">
+                  <p className="text-gray-800 text-lg italic leading-relaxed mb-3">
+                    "I wanted to create this Docker documentation to share what I've learned while working with containerisation. 
+                    This project represents my journey of understanding Docker's concepts and translating that knowledge into 
+                    something accessible for others who are just starting their containerisation journey."
+                  </p>
+                  <p className="text-blue-700 font-semibold">
+                    -- Steven Kaing, Software Engineer
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
             <a 
@@ -48,7 +66,7 @@ const Header = () => {
                 href='https://github.com/StuvanFIT'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='bg-gray-800 hover:bg-gray-900 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all  duration-200 flex items-center group'
+                className='bg-gray-800 hover:bg-gray-900 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 flex items-center group'
             >
                 Authored & Developed by Steven Kaing
             </a>
