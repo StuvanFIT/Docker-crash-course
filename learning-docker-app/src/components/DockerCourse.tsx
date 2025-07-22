@@ -8,7 +8,7 @@ import Header from './sections/Header'
 const DockerCourse = () => {
   return (
     <div className='min-h-screen bg-gradient-to-br from-blue-50 to-white'>
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-6xl mx-auto px-6 text-justify">
             <Header/>
             <Introduction/>
             <Installation/>
