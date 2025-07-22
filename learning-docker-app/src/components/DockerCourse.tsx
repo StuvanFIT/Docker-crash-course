@@ -6,6 +6,7 @@ import ImageAndContainers from './sections/ImageAndContainers'
 import Header from './sections/Header'
 import DockerInCycle from './sections/DockerInCycle'
 import DockerCompose from './sections/DockerComposes'
+import LimitationsDocker from './sections/LimitationsDocker'
 
 const DockerCourse = () => {
   return (
@@ -18,6 +19,7 @@ const DockerCourse = () => {
             <DockerRegistries/>
             <Dockerfiles/>
             <DockerCompose/>
+            <LimitationsDocker/>
             <DockerInCycle/>
         </div>
     </div>
