@@ -1,7 +1,7 @@
 
 const Installation = () => {
   return (
-    <section className="py-20">
+    <section id="install" className="py-20">
       <div className="space-y-8">
         {/* Getting Started Header */}
         <div>
