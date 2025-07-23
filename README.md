@@ -1,6 +1,6 @@
-# 🐳 Docker Crash Course - Interactive Learning Platform
+# 🐳 Docker Made Simple
 
-A comprehensive interactive web application designed to teach Docker fundamentals through hands-on learning. This project serves as both a personal learning journey and an educational resource for peers interested in containerisation and DevOps tools.
+A document designed to teach Docker fundamentals. This project serves as both a personal learning journey and an educational resource for peers interested in containerisation and DevOps tools.
 
 ## 🎯 Project Goals
 
