@@ -2,7 +2,7 @@ import { FaDocker, FaExternalLinkAlt, FaGithub, FaQuoteLeft } from 'react-icons/
 
 const Header = () => {
   return (
-    <section className="py-24">
+    <section id='header' className="py-24">
       <div className="text-center space-y-12">
         {/* Main Hero Content */}
         <div className="space-y-8 border-b border-gray-400 pb-12">

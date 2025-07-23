@@ -1,6 +1,6 @@
 const ImageAndContainers = () => {
   return (
-    <div className="py-20">
+    <section id="image-and-containers" className="py-20">
       <div className="space-y-8">
         <h2 className="text-3xl mb-4 pb-2 md:text-4xl font-semibold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
           Docker Images & Docker Containers
@@ -47,7 +47,7 @@ docker ps
 
 
       </div>
-    </div>
+    </section>
   )
 }
 
