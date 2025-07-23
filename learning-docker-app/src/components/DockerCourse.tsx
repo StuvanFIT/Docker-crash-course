@@ -15,7 +15,7 @@ import { Menu, X } from 'lucide-react'
 
 const DockerCourse = () => {
 
-  const [activeSection, setActiveSection] = useState("");
+  const [activeSection, setActiveSection] = useState("header");
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const sections = [
