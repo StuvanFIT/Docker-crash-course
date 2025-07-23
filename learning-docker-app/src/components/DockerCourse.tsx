@@ -9,14 +9,12 @@ import DockerCompose from './sections/DockerComposes'
 import LimitationsDocker from './sections/LimitationsDocker'
 
 import { useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
-import Footer from './sections/Footer'
+
 
 const DockerCourse = () => {
 
-  const navigate = useNavigate();
   const [activeSection, setActiveSection] = useState("");
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
