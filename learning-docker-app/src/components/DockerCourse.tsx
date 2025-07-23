@@ -119,12 +119,12 @@ const DockerCourse = () => {
 
       <div className='flex flex-col md:flex-row '>
         {/*If > md : desktop */}
-        <nav className='hidden md:flex md:flex-col w-96 p-6 fixed top-0 left-0 h-screen overflow-y-auto border-r border-blue-500/30 bg-gradient-to-br from-blue-600 to-blue-800 z-20'>
+        <nav className='hidden md:flex md:flex-col w-72 p-6 fixed top-0 left-0 h-screen overflow-y-auto border-r border-blue-500/30 bg-gradient-to-br from-blue-600 to-blue-800 z-20'>
           <ul className='space-y-4'>
             {sections.map((section) => (
               <button
                 onClick={()=> scrollToSection(section.id)}
-                className={`md:text-2xl text-left text-white w-full font-bold p-3 transition-all cursor-pointer
+                className={`md:text-xl text-left text-white w-full font-bold p-3 transition-all cursor-pointer
                     ${activeSection === section.id
                       ? 'underline'
                       : 'bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent hover:bg-blue-50'
@@ -137,7 +137,7 @@ const DockerCourse = () => {
           </ul>
         </nav>
         
-        <div className="w-full md:ml-120 max-w-7xl mx-auto px-6 pt-16 md:pt-6 text-justify">
+        <div className="w-full md:ml-80 max-w-7xl mx-auto px-6 pt-16 md:pt-6 text-justify">
             <Header/>
             <Introduction/>
             <Installation/>
