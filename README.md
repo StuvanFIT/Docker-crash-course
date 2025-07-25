@@ -20,8 +20,8 @@ A document designed to teach Docker fundamentals. This project serves as both a 
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd DOCKER-CRASH-COURSE
+   git clone https://github.com/StuvanFIT/Docker-Made-Simple.git
+   cd docker-crash-course
    ```
 
 2. **Navigate to the app directory**
@@ -40,7 +40,7 @@ A document designed to teach Docker fundamentals. This project serves as both a 
    ```
 
 5. **Open your browser**
-   Navigate to `http://localhost:5173` (or the port shown in your terminal)
+   Navigate to `http://localhost:5173` (or the port shown in your terminal via vite)
 
 ## 🛠 Tech Stack
 
